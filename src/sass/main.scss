@@ -1,4 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Inter:wght@100;300;400&family=Josefin+Sans:wght@300;400;600&family=Montserrat:wght@300;400;500;600;700;900&family=Roboto+Condensed&family=Roboto+Mono&family=Roboto:wght@100&display=swap");
+
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
 @import "base/base";
+
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/slide";
+@import "layout/products";
+
+@import "components/logo";
+@import "components/heading";
+@import "components/dropdown";
+@import "components/button";
