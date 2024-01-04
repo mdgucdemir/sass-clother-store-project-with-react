@@ -22,3 +22,5 @@ $font-sizes: (
 @function size($size) {
     @return map-get($font-sizes, $size);
 }
+
+$socialMediaColors: (1 #3b5998, 2 #b31217, 3 #dc4e41, 4 #55acee, 5 #517fa4, 6 #0077b5);

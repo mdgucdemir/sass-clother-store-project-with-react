@@ -6,6 +6,14 @@
 
 html {
     font-size: 62.5%; // yada 10px/16px(default degeri) = .625 * 100 = 62.5% ==> bu (font-size: 10px demektir) 1rem = 10px olucak
+
+    @include response(md) {
+        font-size: 9px;
+    }
+
+    @include response(sm) {
+        font-size: 8px;
+    }
 }
 
 .container {
